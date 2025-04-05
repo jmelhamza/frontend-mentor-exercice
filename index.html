@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Plus+Jakarta+Sans">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <div class="firstcard">
+                <div class="fiirst">
+                    <h3 style=>Mortage calculator</h3>
+                    <p style=>clear all</p>
+                </div>
+                <div class="bleuone"><span>£</span></div>
+                <div class="input">
+                    <label for="firstinput">mortage amount</label><br>
+                    <input type="text" id="firstinput" placeholder="£">
+                </div>
+                <br>
+                <div class="bleutwo"style="text-align: end;"> <span>%</span></div>
+                <div class="bleuthree" style="text-align: end;"> <span >years</span></div>
+
+                <div class="deuxinput">
+                    <div class="secondinput">
+                        <label for="secondinput">mortage term</label><br>
+                        <input type="text" id="secondinput" placeholder="years">
+                    </div>
+                    <div class="thirdinput">
+                        <label for="thirddinput">interest rate</label><br>
+                        <input type="text" id="thirddinput" placeholder="%">
+                    </div>
+                </div>
+                <br>
+                <p>mortage type</p>
+                <div class="one">
+                    <input type="radio" id="wahed" name="input">
+                    <label for="wahed">repayment</label>
+                </div>
+                <br>
+                <div class="two">
+                    <input type="radio" name="input" id="jouj">
+                    <label for="jouj">interest only</label>
+                </div>
+                <br>
+                <br>
+                <button>
+                    <img src="/mortgage-repayment-calculator-main/assets/images/icon-calculator.svg" alt="">
+                    calculate repayments
+                </button>
+
+
+
+            </div>
+            <div class="secondcard">
+                <h3 style="color: hsl(202, 86%, 94%);">your result</h3>
+                <p>your results are shown below based on th information you provide.To adjust the results edit the form
+                    and click "calculate repayments again"</p>
+                <div class="yellow">
+                    <div class="hada"></div>
+                    
+                        <div>
+                            <label for="output">your mountly repayments</label>
+                            <br>
+                            <output id="otput" style="color: hsl(61, 70%, 52%);font-size: 30px;">  <strong>£ 1,797.74 </strong></output>
+                        </div>
+                        <hr>
+                        <label for="oo">total you'll repay over the term</label>
+                        <br>
+                        <output id="oo" style="color: hsl(202, 86%, 94%);font-size: 20px; "> <strong>£ 539,322.24</strong></output>
+                    
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

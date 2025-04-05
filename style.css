@@ -1,0 +1,130 @@
+body {
+font-size: 16px;
+font-family: Plus Jakarta Sans ;
+
+}
+.container{
+ height: 100vh;
+ background-color: hsl(202, 86%, 94%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+section{
+    max-width: 800px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px  10px 10px 10px;
+    height: 65%;
+
+}
+.firstcard{
+    width: 50%;
+    padding: 15px;
+    color: hsl(202, 55%, 16%);
+    
+
+
+}
+.firstcard p {
+    color: hsl(203, 41%, 72%);;
+}
+.fiirst {
+    display: flex;
+    justify-content: space-between;
+}
+.firstcard label {
+    color: hsl(203, 41%, 72%);
+}
+.secondcard{
+    background-color:hsl(202, 55%, 16%) ;
+    width: 50%;
+    border-radius: 0px 10px 10px 50px;
+    padding: 15px;
+    color: hsl(203, 41%, 72%);
+}
+.deuxinput input {
+    text-align: end;
+    
+}
+.deuxinput {
+    display: flex;
+    gap: 15px;
+
+}
+.input input {
+    width: 345px;
+}
+section button{
+    border-radius: 10px;
+    background-color: hsl(61, 70%, 52%);
+}
+.one {
+    border-style:solid ;
+    border-radius: 3px;
+
+}
+.two{
+    border-style: solid;
+    border-radius: 3px;
+}
+.hada {
+    height: 3px;
+    background-color:hsl(61, 70%, 52%) ;
+    border-radius: 2px 2px 0px 0px;
+}
+.bleuone {
+    background-color: hsl(202, 86%, 94%);
+    height: 18px;
+    width: 30px;
+    position: relative;
+    top: 38px;
+    left: 2px;
+
+}
+.bleuthree{
+    background-color: hsl(202, 86%, 94%);
+    height: 18px;
+    width: 45px;
+    position: relative;
+    top: 38px;
+    left: 122px;
+
+
+
+}
+.bleutwo {
+    background-color: hsl(202, 86%, 94%);
+    height: 18px;
+    width: 30px;
+    position: relative;
+    top: 56px;
+    left: 322px;
+
+}
+@media screen and (max-width : 840px)   {
+    section {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .container{
+        height: auto;
+    }
+    .secondcard , .firstcard{
+        border-radius: 0;
+        width: 100%;
+    }
+    .deuxinput {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bleutwo, .bleuthree {
+        position: static; 
+        width: auto;
+        height: auto;
+        background: none;
+    }
+    
+}
