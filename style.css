@@ -103,28 +103,52 @@ section button{
     left: 322px;
 
 }
-@media screen and (max-width : 840px)   {
+@media screen and (max-width: 768px) {
     section {
-        display: flex;
         flex-direction: column;
-        border-radius: 0px 0px 0px 0px;
-    }
-    .container{
         height: auto;
+        margin: 20px;
     }
-    .secondcard , .firstcard{
-        border-radius: 0;
+    
+    .firstcard, .secondcard {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .secondcard {
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .container {
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .deuxinput {
+        flex-direction: column;
+    }
+    
+    .input input {
         width: 100%;
     }
-    .deuxinput {
+}
+
+@media screen and (max-width: 480px) {
+    section {
+        margin: 10px;
+    }
+    
+    .fiirst {
         flex-direction: column;
         gap: 10px;
     }
-    .bleutwo, .bleuthree {
-        position: static; 
-        width: auto;
-        height: auto;
-        background: none;
+    
+    .firstcard, .secondcard {
+        padding: 15px 10px;
     }
     
+    button {
+        width: 100%;
+        padding: 10px;
+    }
 }
